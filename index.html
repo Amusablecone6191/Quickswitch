@@ -10,86 +10,57 @@
 
 <body>
     <header>
-        <h1>QuickSwitch</h1>
+        <h1 class="glowing-text">QuickSwitch</h1>
         <p>Your All-in-One Chrome Extension</p>
     </header>
 <style>
-    /* Reset some default styles */
-body, h1, h2, p {
-    margin: 0;
-    padding: 0;
-}
-
-body {
+    body {
     font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
 }
 
 header {
     text-align: center;
-    background-color: #f8f8f8;
     padding: 50px 0;
 }
 
 header h1 {
-    font-size: 2.5em;
-    color: #333;
+    font-size: 3em;
+}
+
+.glowing-text {
+    font-family: 'Arial Black', sans-serif;
+    color: #007bff;
+    text-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
 }
 
 header p {
     font-size: 1.2em;
-    color: #555;
-}
-
-.features {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 50px 0;
-    background-color: #fff;
-}
-
-.feature {
-    width: 300px;
-    margin: 20px;
-    text-align: center;
-}
-
-.feature h2 {
-    font-size: 1.5em;
-    color: #333;
-}
-
-.feature p {
-    font-size: 1em;
-    color: #555;
+    color: #ccc;
 }
 
 .download {
     text-align: center;
-    background-color: #f8f8f8;
-    padding: 50px 0;
+    padding: 100px 0;
 }
 
 .download h2 {
     font-size: 2em;
-    color: #333;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
-.download p {
-    font-size: 1.2em;
-    color: #555;
-}
-
-.download-btn {
+.glowing-btn {
     display: inline-block;
-    padding: 10px 20px;
-    font-size: 1em;
+    padding: 15px 30px;
+    font-size: 1.5em;
     color: #fff;
     background-color: #007bff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #007bff, 0 0 20px #007bff, 0 0 30px #007bff;
 }
 
 footer {
@@ -101,23 +72,11 @@ footer {
     width: 100%;
     bottom: 0;
 }
-</style>
-    <section class="features">
-        <div class="feature">
-            <h2>Feature 1</h2>
-            <p>Description of feature 1.</p>
-        </div>
-        <div class="feature">
-            <h2>Feature 2</h2>
-            <p>Description of feature 2.</p>
-        </div>
-        <!-- Add more features as needed -->
-    </section>
 
+</style>
     <section class="download">
         <h2>Download Now</h2>
-        <p>Get QuickSwitch and start improving your browsing experience today.</p>
-        <a href="#" class="download-btn">Download</a>
+        <a href="#" class="glowing-btn">Download</a>
     </section>
 
     <footer>
