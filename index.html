@@ -1,89 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>QuickSwitch - Chrome Extension</title>
+    <title>QuickSwitch Extension</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    body {
+<body>
+    <header>
+        <h1>QuickSwitch</h1>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#screenshots">Screenshots</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <style>
+        /* Add your custom styles here */
+body {
     font-family: Arial, sans-serif;
-    background-color: #000;
-    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
 }
 
 header {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
     text-align: center;
-    padding: 50px 0;
 }
 
 header h1 {
-    font-size: 3em;
-    margin-bottom: 10px;
-}
-
-.glowing-text {
-    font-family: 'Arial Black', sans-serif;
-    color: #007bff;
-    text-shadow: 0 0 10px #007bff;
-}
-
-header p {
-    font-size: 1.2em;
-    color: #ccc;
-    margin-bottom: 20px;
-}
-
-.download {
-    text-align: center;
-    padding: 100px 0;
-}
-
-.download h2 {
     font-size: 2em;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
     color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+section h2 {
+    font-size: 1.8em;
     margin-bottom: 20px;
 }
 
-.glowing-btn {
+.cta-button {
     display: inline-block;
-    padding: 15px 30px;
-    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #333;
     color: #fff;
-    background-color: #ff69b4; /* Pink color */
     text-decoration: none;
     border-radius: 5px;
-    text-align: center;
-    box-shadow: 0 0 10px #ff69b4;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #555;
 }
 
 footer {
-    text-align: center;
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    text-align: center;
+    padding: 10px 0;
     position: fixed;
-    width: 100%;
     bottom: 0;
+    width: 100%;
 }
 
-</style>
-<body>
-    <header>
-        <h1 class="glowing-text">Quick Switch</h1>
-        <p>Your All-in-One Chrome Extension</p>
-    </header>
+    </style>
+    <section id="hero">
+        <div class="content">
+            <h2>Switch between tasks effortlessly</h2>
+            <p>QuickSwitch is the ultimate tool to enhance your productivity.</p>
+            <a href="#download" class="cta-button">Download Now</a>
+        </div>
+    </section>
 
-    <section class="download">
-        <h2>Download Now</h2>
-        <a href="#" class="glowing-btn">Download</a>
+    <section id="features">
+        <h2>Features</h2>
+        <!-- Add feature details here -->
+    </section>
+
+    <section id="screenshots">
+        <h2>Screenshots</h2>
+        <!-- Add screenshots here -->
+    </section>
+
+    <section id="download">
+        <h2>Download QuickSwitch</h2>
+        <p>Get started today and supercharge your workflow.</p>
+        <a href="#" class="cta-button">Download Now</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <!-- Add contact form or details here -->
     </section>
 
     <footer>
-        <p>&copy; 2023 QuickSwitch. All Rights Reserved.</p>
+        <p>&copy; 2023 QuickSwitch. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
